@@ -1,0 +1,14 @@
+echo ===== Rename =====
+rename "C:\Program Files (x86)\LBDCMD_Tools\Manage\CDMPCom.exe" "C:\Program Files (x86)\LBDCMD_Tools\Manage\CDMPCom1.exe"
+rename "C:\Program Files (x86)\LBDCMD_Tools\Manage\CDMPToolsService.exe" "C:\Program Files (x86)\LBDCMD_Tools\Manage\CDMPToolsService1.exe"
+rename "C:\Program Files (x86)\LBDCMD_Tools\Manage\qbtclt.exe" "C:\Program Files (x86)\LBDCMD_Tools\Manage\qbtclt1.exe"
+rename "C:\Program Files (x86)\LBDCMD_Tools\Manage\YGTerminalMonitor.exe" "C:\Program Files (x86)\LBDCMD_Tools\Manage\YGTerminalMonitor1.exe"
+rename "C:\Program Files (x86)\LBD5800MT\Student\MMStudent50.exe" "C:\Program Files (x86)\LBD5800MT\Student\MMStudent501.exe"
+echo ===== Task Kill =====
+taskkill /f /im CDMPCom.exe
+taskkill /f /im CDMPToolsService.exe
+taskkill /f /im qbtclt.exe
+taskkill /f /im YGTerminalMonitor.exe
+taskkill /f /im MMStudent50.exe
+
+pause
