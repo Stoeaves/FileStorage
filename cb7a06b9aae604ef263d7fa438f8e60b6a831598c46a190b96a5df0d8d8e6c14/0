@@ -1,0 +1,14 @@
+echo ===== Rename =====
+rename "C:\Program Files (x86)\LBDCMD_Tools\Manage\CDMPCom1.exe" "C:\Program Files (x86)\LBDCMD_Tools\Manage\CDMPCom.exe"
+rename "C:\Program Files (x86)\LBDCMD_Tools\Manage\CDMPToolsService1.exe" "C:\Program Files (x86)\LBDCMD_Tools\Manage\CDMPToolsService.exe"
+rename "C:\Program Files (x86)\LBDCMD_Tools\Manage\qbtclt1.exe" "C:\Program Files (x86)\LBDCMD_Tools\Manage\qbtclt.exe"
+rename "C:\Program Files (x86)\LBDCMD_Tools\Manage\YGTerminalMonitor1.exe" "C:\Program Files (x86)\LBDCMD_Tools\Manage\YGTerminalMonitor.exe"
+rename "C:\Program Files (x86)\LBD5800MT\Student\MMStudent501.exe" "C:\Program Files (x86)\LBD5800MT\Student\MMStudent50.exe"
+echo ===== Start Process =====
+"C:\Program Files (x86)\LBDCMD_Tools\Manage\CDMPCom.exe"
+"C:\Program Files (x86)\LBDCMD_Tools\Manage\CDMPToolsService.exe"
+"C:\Program Files (x86)\LBDCMD_Tools\Manage\qbtclt.exe"
+"C:\Program Files (x86)\LBDCMD_Tools\Manage\YGTerminalMonitor.exe"
+"C:\Program Files (x86)\LBD5800MT\Student\MMStudent50.exe"
+
+pause
